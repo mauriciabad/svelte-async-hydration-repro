@@ -3,6 +3,7 @@
 Svelte 5.57.3, `experimental.async`, no SvelteKit.
 
 ```sh
+nvm use     # Node 26 (.nvmrc)
 npm install
 npm start   # builds, server-renders App.svelte into dist/index.html, serves it
 ```
