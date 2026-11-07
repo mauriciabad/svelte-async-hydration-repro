@@ -3,9 +3,9 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "vite build && vite build --ssr src/entry-server.js --outDir dist-server && bun prerender.js",
+    "build": "vite build && vite build --ssr src/entry-server.js --outDir dist-server && node prerender.js",
     "preview": "vite preview",
-    "start": "bun run build && bun run preview"
+    "start": "npm run build && npm run preview"
   },
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "7.3.1",

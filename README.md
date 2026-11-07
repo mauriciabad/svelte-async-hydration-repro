@@ -3,8 +3,8 @@
 Svelte 5.57.3, `experimental.async`, no SvelteKit.
 
 ```sh
-bun install
-bun start   # builds, server-renders App.svelte into dist/index.html, serves it
+npm install
+npm start   # builds, server-renders App.svelte into dist/index.html, serves it
 ```
 
 Open the printed URL and click the button.
