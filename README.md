@@ -1,9 +1,8 @@
 # Hydration mismatch after an `await` isn't recovered
 
-Svelte 5.57.3, `experimental.async`, no SvelteKit.
+Svelte 5.57.3, `experimental.async`, no SvelteKit. Any recent Node works (tested on 26.13, see `.nvmrc`).
 
 ```sh
-nvm use     # Node 26 (.nvmrc)
 npm install
 npm start   # builds, server-renders App.svelte into dist/index.html, serves it
 ```
